@@ -1,13 +1,15 @@
 {
-  "miniprogramRoot": "miniprogram/",
-  "cloudfunctionRoot": "cloudfunctions/",
+  "miniprogramRoot": "dist/",
+  "projectname": "open-todo",
+  "description": "todo-list",
+  "appid": "wx6c77907999d071d2",
   "setting": {
     "urlCheck": true,
-    "es6": true,
-    "enhance": true,
-    "postcss": true,
+    "es6": false,
+    "enhance": false,
+    "postcss": false,
     "preloadBackgroundData": false,
-    "minified": true,
+    "minified": false,
     "newFeature": true,
     "coverView": true,
     "nodeModules": false,
@@ -30,37 +32,16 @@
     "enableEngineNative": false,
     "bundle": false,
     "useIsolateContext": true,
-    "useCompilerModule": true,
+    "useCompilerModule": false,
     "userConfirmedUseCompilerModuleSwitch": false,
     "userConfirmedBundleSwitch": false,
     "packNpmManually": false,
     "packNpmRelationList": [],
-    "minifyWXSS": true
+    "minifyWXSS": false
   },
-  "appid": "wx6c77907999d071d2",
-  "projectname": "miniprogram-1",
-  "libVersion": "2.14.1",
-  "condition": {
-    "search": {
-      "list": []
-    },
-    "conversation": {
-      "list": []
-    },
-    "plugin": {
-      "list": []
-    },
-    "game": {
-      "list": []
-    },
-    "miniprogram": {
-      "list": [
-        {
-          "id": -1,
-          "name": "db guide",
-          "pathName": "pages/databaseGuide/databaseGuide"
-        }
-      ]
-    }
-  }
+  "compileType": "miniprogram",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "libVersion": "2.16.0",
+  "condition": {}
 }
