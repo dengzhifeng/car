@@ -11,7 +11,8 @@
     "dev:rn": "npm run build:rn -- --watch",
     "dev:weapp": "npm run build:weapp -- --watch",
     "dev:h5": "npm run build:h5 -- --watch",
-    "push": "command-cli push"
+    "push": "command-cli push",
+    "upload": "npx hf-cli uploadMini"
   },
   "author": "",
   "license": "MIT",
